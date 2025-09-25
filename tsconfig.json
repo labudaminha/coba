@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "lib": ["ES2022", "WebWorker"],
+    "strict": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "types": ["./worker-configuration.d.ts"]
+  },
+  "include": ["src/**/*"]
+}
