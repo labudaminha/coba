@@ -1,0 +1,14 @@
+name = "me-cli-worker"
+main = "dist/index.js"
+compatibility_date = "2025-09-25"
+
+[vars]
+BASE_API_URL = "https://<isi-domain-api-mu>"
+BASE_CIAM_URL = "https://<isi-ciam-url>"
+UA = "okhttp/5.0 (Android 13; ...)"
+
+# Secrets (set via wrangler secret)
+# BASIC_AUTH, API_KEY, CRYPTO_API
+
+[observability]
+enabled = true
